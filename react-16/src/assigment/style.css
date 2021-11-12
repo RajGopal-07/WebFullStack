@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+.primary{
+    color: coral;
+    font-family: 'Ubuntu', sans-serif;
+}
+.secondary{
+    color: rgb(85, 88, 135);
+    font-family: 'Ubuntu', sans-serif; 
+}
