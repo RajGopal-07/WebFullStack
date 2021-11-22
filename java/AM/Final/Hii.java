@@ -12,7 +12,7 @@ package AM.Final;
     }
     public static void main (String[]args){
         C obj = new C(); //implementing
-        obj.getname();
+        obj.getname();  //calling  
         
     }
 }

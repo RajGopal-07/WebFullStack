@@ -1,15 +1,17 @@
-import React from "react";
-import "./bootstrap.css";
-import Carts from "./product/Carts";
-//import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-class App extends React.Component {
-  render() {
+import React from "react"
+
+import Facebook from "./component/Fcaebook"
+class App extends React.Component{
+  render(){
     return(
-      <>
-     <Carts/>
-      <h1>hello</h1>
-      </>
+      <div>
+        <h1 className="App-title">Facebook Auth Example</h1>
+        <Facebook/>
+      </div>
     )
   }
 }
 export default App;
+
+
+
