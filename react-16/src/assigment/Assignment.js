@@ -1,22 +1,30 @@
-import React from 'react';
-
+import React from "react"
 class Assignment extends React.Component{
     state={
         count:5,
-        message:"hello",
+        message:"Hii"
     }
     update=(event)=>{
         this.setState({
             count:event.target.value.length
         })
     }
+    
     render(){
+        
         return(
-            <React.Fragment>
-                     <p>Remaining:{this.state.count}</p>
-                     <input type="text" onChange={this.update}/><br></br>
-                     <button>click</button>
-            </React.Fragment>
+            <div>
+                <form>
+                <section>
+                    <pre>{JSON.stringify}</pre>
+                <p className="text center">Remaining:{this.state.count}</p>
+                <input type="text" onChange={this.update}/><br></br>
+                <button>click</button>
+                </section>
+                </form>
+
+            </div>
+
         )
     }
 }
